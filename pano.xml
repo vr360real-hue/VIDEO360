@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.5" apprev="17926" start="node1">
+  <panorama id="node1" hideabout="1">
+    <input levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0" height="960" leveltilesize="510" levelbiashidpi="1.000" overlap="1" width="960">
+      <level preload="0" height="960" width="960" predecode="0"/>
+      <level preload="1" height="480" width="480" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+      <video endaction="loop" format="equirectangular" startonload="1" targetview="" startmutedmobile="0">
+        <source url="videos/0000001-3.mp4"/>
+      </video>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="1.37609" pan="-172.16" projection="4" fov="120"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360" fov="120"/>
+    </view>
+    <userdata title="" info="" longitude="" nodeid="node1" comment="" heading="0" description="" copyright="" datetime="" customnodeid="" source="" tags="Pano2VR6" author="" latitude=""/>
+    <hotspots wordwrap="1" height="0" width="180">
+      <label textcolor="0xffffff" borderradius="1" wordwrap="1" borderalpha="1" background="0" enabled="1" textalpha="1" height="0" border="0" backgroundalpha="1" backgroundcolor="0xffffff" width="180" bordercolor="0x000000"/>
+      <polystyle handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <polyhotspot title="ПЕРЕЙТИ В &quot;ШАЛЕ&quot;" id="Poly01" target="_blank" url="https://cz60182.tw1.ru/CHALET/index.html" description="">
+        <polystring>-333.32/32.36|-24.35/32.3|-24.3/25.24|-333.56/25.22</polystring>
+      </polyhotspot>
+      <polyhotspot title="ПЕРЕЙТИ В &quot;ЛОФТ&quot;" id="Poly02" target="_blank" url="https://cz60182.tw1.ru/DOM_LOFT/index.html" description="">
+        <polystring>-333.31/21.1|-24.31/21.28|-24.32/12.56|-333.55/12.42</polystring>
+      </polyhotspot>
+      <polyhotspot title="ПЕРЕЙТИ В &quot;ВИЛЛА&quot;" id="Poly03" target="_blank" url="https://cz60182.tw1.ru/DOM_VILLA/index.html" description="">
+        <polystring>-333.42/7.86|-23.73/8.23|-23.95/-1.15|-333.42/-1.29</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image handcursor="0" id="Element01" roty="0.000" tilt="-0.070" pan="-359.660" clickmode="0" rotx="0.000" rotz="0.000" height="1232" fov="90.000" stretch="1.000" width="1232">
+        <source url="media/0000000-001.png"/>
+      </image>
+    </media>
+    <transition type="crossdissolve" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1" zoomout="0" softedge="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" sensitivity="8" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" rubberband="0" speedwheel="1" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <masternode>
+    <userdata title="" info="" longitude="" nodeid="master" comment="" heading="0" description="" copyright="" datetime="" customnodeid="" source="" tags="" author="" latitude=""/>
+  </masternode>
+</tour>
